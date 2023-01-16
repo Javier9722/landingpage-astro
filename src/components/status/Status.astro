@@ -1,0 +1,35 @@
+---
+import features from "../../data/features.json";
+interface Props {
+  data: string;
+}
+
+const style =
+  "absolute top-0 left-0 w-20 sm:w-32 py-0 lg:py-1 rounded-br-xl text-center font-bold transition-colors duration-500";
+const style2 =
+  "absolute bottom-0 w-full bg-violet-800 group-hover:bg-purple-900 text-center font-bold py-1 transition-colors duration-500";
+const { data } = Astro.props;
+const status = JSON.parse(data).status;
+---
+
+{
+  status.new ? (
+    <div class={style + " bg-red-600 group-hover:bg-red-800"}>New!!</div>
+  ) : status.building ? (
+    <div class={style + " bg-yellow-600 group-hover:bg-yellow-800"}>
+      En Curso
+    </div>
+  ) : (
+    ""
+  )
+}
+{
+  status.update.status ? (
+    <div class={style2}>
+      Update: {status.update.date.day}-{status.update.date.month}-
+      {status.update.date.age}
+    </div>
+  ) : (
+    ""
+  )
+}
