@@ -1,0 +1,52 @@
+[
+  {
+    "img": "/images/languajes/html.svg",
+    "title": "HTML",
+    "ability": 2
+  },
+  {
+    "img": "/images/languajes/css.svg",
+    "title": "CSS",
+    "ability": 2
+  },
+  {
+    "img": "/images/languajes/sass.svg",
+    "title": "SASS",
+    "ability": 0
+  },
+  {
+    "img": "/images/languajes/tailwind.svg",
+    "title": "Tailwind",
+    "ability": 1
+  },
+  {
+    "img": "/images/languajes/js.svg",
+    "title": "Javascript",
+    "ability": 2
+  },
+  {
+    "img": "/images/languajes/ts.svg",
+    "title": "Typescript",
+    "ability": 1
+  },
+  {
+    "img": "/images/languajes/react.svg",
+    "title": "React",
+    "ability": 0
+  },
+  {
+    "img": "/images/languajes/vitejs.svg",
+    "title": "Vite",
+    "ability": 0
+  },
+  {
+    "img": "/images/languajes/lua.svg",
+    "title": "Lua",
+    "ability": 1
+  },
+  {
+    "img": "/images/languajes/astro-light.svg",
+    "title": "Astro",
+    "ability": 2
+  }
+]
