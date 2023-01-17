@@ -2,51 +2,61 @@
   {
     "img": "/images/languajes/html.svg",
     "title": "HTML",
-    "ability": 2
+    "ability": 75,
+    "color": "#E44D26"
   },
   {
     "img": "/images/languajes/css.svg",
     "title": "CSS",
-    "ability": 2
+    "ability": 75,
+    "color": "#1172B8"
   },
   {
     "img": "/images/languajes/sass.svg",
     "title": "SASS",
-    "ability": 0
+    "ability": 10,
+    "color": "#CB6699"
   },
   {
     "img": "/images/languajes/tailwind.svg",
     "title": "Tailwind",
-    "ability": 1
+    "ability": 50,
+    "color": "#38b2ac"
   },
   {
     "img": "/images/languajes/js.svg",
     "title": "Javascript",
-    "ability": 2
+    "ability": 70,
+    "color": "#efd81d"
   },
   {
     "img": "/images/languajes/ts.svg",
     "title": "Typescript",
-    "ability": 1
+    "ability": 60,
+    "color": "#007acc"
   },
   {
     "img": "/images/languajes/react.svg",
     "title": "React",
-    "ability": 0
+    "ability": 20,
+    "color": "#61DAFB"
   },
   {
     "img": "/images/languajes/vitejs.svg",
     "title": "Vite",
-    "ability": 0
+    "ability": 10,
+    "color": "#bd34fe"
   },
   {
     "img": "/images/languajes/lua.svg",
     "title": "Lua",
-    "ability": 1
+    "ability": 30,
+    "color": "#000080"
   },
   {
-    "img": "/images/languajes/astro-light.svg",
+    "img": "/images/languajes/astro-dark.svg",
     "title": "Astro",
-    "ability": 2
+    "ability": 70,
+    "color": "#FF5D01"
   }
 ]

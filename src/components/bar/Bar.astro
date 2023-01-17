@@ -1,0 +1,24 @@
+---
+interface Props {
+  data: string;
+}
+
+const { data } = Astro.props;
+
+const title = JSON.parse(data).title;
+const value = JSON.parse(data).ability;
+const color = JSON.parse(data).color;
+
+const style = "width: " + value + "%; background-color: " + color + ";";
+---
+
+<div class="flex justify-between px-2">
+  <span class="text-base font-medium text-blue-700 dark:text-white"
+    >{title}</span
+  >
+  <span class="text-sm font-medium text-blue-700 dark:text-white">{value}%</span
+  >
+</div>
+<div class="w-full bg-gray-200 h-2.5 dark:bg-gray-700" style="height:;">
+  <div class="h-2.5" style={style}></div>
+</div>
